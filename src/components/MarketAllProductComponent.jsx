@@ -137,7 +137,7 @@ class MarketAllProductComponent extends Component {
                                     <th> Department</th>
                                     <th> Price</th>
 
-                                    <th> Quantity</th>
+                                   
                                     <th> Actions</th>
 
                                 </tr>
@@ -156,7 +156,7 @@ class MarketAllProductComponent extends Component {
                                                 <td> {product.department}</td>
                                                 <td> {product.price}</td>
 
-                                                <td> {product.quantity}</td>
+                                                
                                                 <td className="centerButton">
                                                     <button onClick={() => this.addCartProduct(product.id)} className="btn btn-info">Add</button>
                                                 </td>
